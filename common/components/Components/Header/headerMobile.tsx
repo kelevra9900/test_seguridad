@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import imagen from '../../../../assets/siteLogo.png';
-import iconoMenu from '../../../../assets/icons8-menú-24.png';
+// import iconoMenu from '@assets/icons8-menú-24.png';
 import 'antd/dist/antd.css';
 import {Row, Col, Menu, Drawer, Input, Select } from 'antd';
 import { ReadOutlined, CameraOutlined, InteractionOutlined } from '@ant-design/icons';
@@ -63,7 +63,7 @@ const HeaderMobile =  ({ intl }) =>{
                             <img src={imagen} id="imagen" alt="imagenLogo" className={css.imagenLogo} />
                         </Col>
                         <Col span={2} offset={9}>
-                            <img src={iconoMenu} id="menu" alt="menuIcono" className={css.iconoMenu}  onClick={onOpenMenu} />
+                            {/* <img src={iconoMenu} id="menu" alt="menuIcono" className={css.iconoMenu}  onClick={onOpenMenu} /> */}
                         </Col>
                         <Drawer
                             width={310}
