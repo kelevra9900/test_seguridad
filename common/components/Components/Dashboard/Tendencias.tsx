@@ -36,7 +36,7 @@ const Tendencias =  () =>{
                             </>
                         ))}
                 </TabPane>
-                {/* <TabPane tab="Comentarios" key="2" style={{fontSize:'9px'}}>
+                <TabPane tab="Comentarios" key="2" style={{fontSize:'9px'}}>
                     {menuItems.map((item)=>(
                             <>
                                 <Row>
@@ -55,7 +55,7 @@ const Tendencias =  () =>{
                                 <br/>
                             </>
                         ))}
-                </TabPane> */}
+                </TabPane>
                 <TabPane tab="Último" key="3" style={{fontSize:'9px'}}>
                     {menuItems.map((item)=>(
                             <>

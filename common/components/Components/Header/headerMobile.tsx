@@ -42,15 +42,15 @@ const HeaderMobile =  ({ intl }) =>{
 
     const onChangeLanguage = (value: string) => {
         //console.log("ver si llega", value)
-        // if(value=="es-MX"){
-        //   //  setLanguage('es-MX')
-        //     setLanguage({
-        //         lang:'es-MX'
-        //     })
-        // }
-        // else{
-        //     setLanguage('en-US')
-        // }
+        if(value=="es-MX"){
+          //  setLanguage('es-MX')
+            setLanguage({
+                lang:'es-MX'
+            })
+        }
+        else{
+            setLanguage('en-US')
+        }
     }
     const onSearch = value => console.log(value);
     

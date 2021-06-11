@@ -47,12 +47,12 @@ const HeaderDefault =  ({ intl }) =>{
 
     const onChangeLanguage = (value) => {
         //console.log("ver si llega", value)
-        // if(value=="es-MX"){
-        //     setLanguage('es-MX')
-        // }
-        // else{
-        //     setLanguage('en-US')
-        // }
+        if(value=="es-MX"){
+            setLanguage('es-MX')
+        }
+        else{
+            setLanguage('en-US')
+        }
     }
     return(
         <>
